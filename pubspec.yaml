@@ -1,0 +1,73 @@
+name: f1web
+description: Login page bertema Formula 1
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/F1-Logo.png
+    - assets/images/drivers/alexander_albon_converted.png
+    - assets/images/drivers/carlos_sainz_converted.png
+    - assets/images/drivers/charles_leclerc_converted.png
+    - assets/images/drivers/esteban_ocon_converted.png
+    - assets/images/drivers/fernando_alonso_converted.png
+    - assets/images/drivers/franco_colapinto_converted.png
+    - assets/images/drivers/gabriel_bortoleto_converted.png
+    - assets/images/drivers/george_russel_converted.png
+    - assets/images/drivers/isack_hadjar_converted.png
+    - assets/images/drivers/kimi_antonelli_converted.png
+    - assets/images/drivers/lance_stroll_converted.png
+    - assets/images/drivers/lando_norris_converted.png
+    - assets/images/drivers/lewis_hamilton_converted.png
+    - assets/images/drivers/liam_lawson_converted.png
+    - assets/images/drivers/max_verstappen_converted.png
+    - assets/images/drivers/nico_hulkenberg_converted.png
+    - assets/images/drivers/oliver_bearman_converted.png
+    - assets/images/drivers/oscar_piastri_converted.png
+    - assets/images/drivers/pierre_gasly_converted.png
+    - assets/images/drivers/sergio_perez_converted.png
+    - assets/images/drivers/valtteri_bottas_converted.png
+    - assets/images/drivers/arvid_lindblad_converted.png
+    - assets/images/cars/ferrariF1-car.jpg
+    - assets/images/cars/mclaren-f1-car.jpg
+    - assets/images/cars/mercedesF1-car.jpg
+    - assets/images/cars/Red-Bull-car.jpg
+    - assets/images/cars/Alpine-car.jpg
+    - assets/images/cars/visarb-car.jpg
+    - assets/images/cars/audi-car.jpg
+    - assets/images/cars/haas-car.jpg
+    - assets/images/cars/williams-car.jpg
+    - assets/images/cars/aston-martin-car.jpg
+    - assets/images/cars/cadillac-car.jpg
+    - assets/images/circuits/australia_circuit.jpg
+    - assets/images/circuits/austria_circuit.jpg
+    - assets/images/circuits/belgium_circuit.jpg
+    - assets/images/circuits/canada_circuit.jpg
+    - assets/images/circuits/china_circuit.jpg
+    - assets/images/circuits/great_britain_circuit.jpg
+    - assets/images/circuits/japan_circuit.jpg
+    - assets/images/circuits/miami_circuit.jpg
+    - assets/images/circuits/monaco_circuit.jpg
+    - assets/images/circuits/spain_circuit.jpg
+
+  fonts:
+    - family: BebasNeue
+      fonts:
+        - asset: assets/fonts/BebasNeue-Regular.ttf
+    - family: GoogleSans
+      fonts: 
+        - asset: assets/fonts/GoogleSans-Regular.ttf
