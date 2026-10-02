@@ -20,6 +20,7 @@ flutter:
 
   assets:
     - assets/images/F1-Logo.png
+    - assets/images/profile/fadils.png
     - assets/images/drivers/alexander_albon_converted.png
     - assets/images/drivers/carlos_sainz_converted.png
     - assets/images/drivers/charles_leclerc_converted.png

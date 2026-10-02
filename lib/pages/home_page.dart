@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../utils/driver_standings.dart';
 import '../widgets/driver_card.dart';
+import 'about_me_tab.dart';
 import 'car_specs_tab.dart';
 import 'circuit_tab.dart';
 import 'driver_detail_page.dart';
@@ -22,7 +23,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
   @override
   void initState() {
     super.initState();
-    _tabController = TabController(length: 4, vsync: this);
+    _tabController = TabController(length: 5, vsync: this);
   }
 
   @override
@@ -98,13 +99,14 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
             unselectedLabelColor: Colors.white54,
             labelStyle: const TextStyle(fontFamily: 'BebasNeue', fontSize: 18, letterSpacing: 1.5),
             unselectedLabelStyle: const TextStyle(fontFamily: 'BebasNeue', fontSize: 18, letterSpacing: 1.5),
-            overlayColor: WidgetStateProperty.all(Colors.transparent),
+            overlayColor: const WidgetStatePropertyAll(Colors.transparent),
             tabAlignment: TabAlignment.start,
             tabs: const [
               Tab(text: 'DRIVERS'),
               Tab(text: 'STANDINGS'),
               Tab(text: 'TEAMS'),
               Tab(text: 'SCHEDULE'),
+              Tab(text: 'ABOUT ME'),
             ],
           ),
 
@@ -145,6 +147,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
                   child: CarSpecsTabView(),
                 ),
                 const CircuitTabView(),
+                const AboutMeTabView(),
               ],
             ),
           ),
