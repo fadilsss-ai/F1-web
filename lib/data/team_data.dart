@@ -71,7 +71,7 @@ const List<Team> kTeams = [
   Team(
     name: 'Mercedes-AMG Petronas',
     teamColor: Color(0xFF00D2BE),
-    imagePath: 'assets/images/cars/mercedesF1-car.jpg',
+    imagePath: 'assets/images/cars/mercedesf1-car.jpg',
     chassis: 'W17',
     engineSupplier: 'Mercedes-AMG',
     description:
