@@ -22,7 +22,7 @@ class F1WebApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'F1 Login',
+      title: 'Formula 1 2026 Seasons',
       debugShowCheckedModeBanner: false,
       scrollBehavior: AppScrollBehavior(),
       theme: ThemeData(

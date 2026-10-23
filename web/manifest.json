@@ -1,11 +1,12 @@
+
 {
-    "name": "f1web",
-    "short_name": "f1web",
+    "name": "Formula 1 2026 Seasons",
+    "short_name": "F1 2026",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#000000",
+    "theme_color": "#E10600",
+    "description": "Formula 1 2026 Seasons - F1 Drivers Hub Community",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
