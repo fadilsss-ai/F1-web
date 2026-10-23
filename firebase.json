@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "formula1-2026-seasons",
     "public": "build/web",
     "ignore": [
       "firebase.json",
