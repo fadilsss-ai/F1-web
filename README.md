@@ -2,4 +2,4 @@
 
 ## LINKS
 GitHub  : https://fadilsss-ai.github.io/F1-web/
-Firebase: https://f1-web-hosting.web.app
+Firebase: https://formula1-2026-seasons.web.app
